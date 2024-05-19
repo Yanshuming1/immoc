@@ -58,6 +58,7 @@ public class DemoApi {
     @HystrixCommand(fallbackMethod = "error",
         commandProperties = {
             @HystrixProperty(
+
                 name = "execution.isolation.thread.timeoutInMilliseconds",
                 value = "2000"
             )
