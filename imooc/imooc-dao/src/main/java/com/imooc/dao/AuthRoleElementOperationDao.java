@@ -12,4 +12,5 @@ public interface AuthRoleElementOperationDao {
 
     List<AuthRoleElementOperation> getRoleElementOperationsByRoleIds(@Param("roleIdSet") Set<Long> roleIdSet);
 
+
 }
